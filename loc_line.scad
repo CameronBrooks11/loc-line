@@ -2,14 +2,16 @@
 $fn = $preview ? 64 : 128;
 
 thickness = 1;
-coupling_diameter = 10;
-major_diameter = coupling_diameter + thickness * 2;
-bore = 5;
-slit_dim = 1.5;
+coupling_diameter = 12;
+bore = 6;
+slit_dim = 2;
+
 center_distance_factor = 0.85;
 top_cut_factor = 0.125;
 bottom_cut_factor = 0.25;
 
+
+major_diameter = coupling_diameter + thickness * 2;
 center_distance = coupling_diameter * center_distance_factor;
 center_distance_diff = coupling_diameter - center_distance;
 
