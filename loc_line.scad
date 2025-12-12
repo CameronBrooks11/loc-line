@@ -4,7 +4,7 @@ $fn = $preview ? 64 : 128;
 thickness = 1;
 coupling_diameter = 12;
 bore = 6;
-slit_dim = 2;
+slit_dim = 1.5;
 
 center_distance_factor = 0.85;
 top_cut_factor = 0.125;
