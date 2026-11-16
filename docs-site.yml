@@ -1,0 +1,3 @@
+title: segmented-hose-scad
+description: One segment of a ball-and-socket hose in OpenSCAD, for coolant and air lines
+models: segmented_hose.scad
